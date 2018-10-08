@@ -39,8 +39,8 @@ class _LoginState extends State<Login> {
              crossAxisAlignment: CrossAxisAlignment.center,
              children: <Widget>[
 
-             Image.asset("img/logo.png",fit: BoxFit.fill,
-               height: 100.0),
+             /*Image.asset("img/logo.png",fit: BoxFit.fill,
+               height: 100.0),*/
 
              Padding(padding: EdgeInsets.only(top: 40.0,bottom: 40.0)),
 

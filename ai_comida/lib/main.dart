@@ -1,3 +1,4 @@
+import 'package:Ai_Comida/view/DetalhesView.dart';
 import 'package:Ai_Comida/view/loginView.dart';
 import 'package:Ai_Comida/view/principalView.dart';
 import 'package:flutter/material.dart';
@@ -13,6 +14,7 @@ void main() async {
       routes: {
         "/login": (context) => Login(),
         "/principal": (context) => Principal(),
+        "/detalhes": (context) => Detalhes(),
       },
 
       home: Login(),
