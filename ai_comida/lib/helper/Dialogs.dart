@@ -1,6 +1,6 @@
-import 'dart:async';
+/*import 'dart:async';
 import 'dart:convert';
-import 'dart:io';
+import 'dart:io';*/
 //import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
 //import 'package:sgv_mobile/Controllers/SubControllers/CotacoesControllers.dart';
@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 //import 'package:sgv_mobile/Helpers/SalvarDadosUsuario.dart';
 //import 'package:sgv_mobile/Helpers/Url.dart';
 //import 'package:sgv_mobile/Widgets/TextFileds.dart';
-import 'package:http/http.dart' as http;
+//import 'package:http/http.dart' as http;
 
 class Dialogs {
 
@@ -97,7 +97,7 @@ class Dialogs {
     );
   }*/
 
-  /*justificativa(BuildContext context, String justificativa) {
+ /*justificativa(BuildContext context, String justificativa) {
     return showDialog<Null>(
       context: context,
       barrierDismissible: true,
@@ -196,6 +196,57 @@ class Dialogs {
           title: Text('Alerta',
               textAlign: TextAlign.center,
               style: TextStyle(color: Colors.red, fontSize: 20.0)),
+          content: SingleChildScrollView(
+            child: ListBody(
+              children: <Widget>[
+                Text(
+                  msg,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(color: Colors.blue, fontSize: 15.0),
+                ),
+                Padding(padding: EdgeInsets.only(top: 10.0)),
+                Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Padding(padding: EdgeInsets.only(right: 10.0)),
+                      FlatButton(
+                          child: Center(
+                              child: Text('Sim',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 20.0),
+                                  textAlign: TextAlign.end)),
+                          onPressed: () {
+                            //SalvarDadosUsuario().deletarDados();
+                            Navigator.pop(context);
+                            Navigator.pushReplacementNamed(context, "/login");
+                          },
+                          color: Colors.green),
+                      Padding(padding: EdgeInsets.only(right: 5.0)),
+                      FlatButton(
+                          child: Center(
+                              child: Text('Não',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 20.0),
+                                  textAlign: TextAlign.center)),
+                          onPressed: () {
+                            Navigator.of(context).pop();
+                          },
+                          color: Colors.red),
+                    ])
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
+
+  detalhamento(BuildContext context, String msg) {
+    return showDialog<Null>(
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) {
+        return AlertDialog(
           content: SingleChildScrollView(
             child: ListBody(
               children: <Widget>[
