@@ -1,17 +1,6 @@
 name: Ai_Comida
 description: A new Flutter application.
 
-# The following defines the version and build number for your application.
-# A version number is three numbers separated by dots, like 1.2.43
-# followed by an optional build number separated by a +.
-# Both the version and the builder number may be overridden in flutter
-# build by specifying --build-name and --build-number, respectively.
-# Read more about versioning at semver.org.
-version: 1.0.0+1
-
-environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
-
 dependencies:
   flutter:
     sdk: flutter
@@ -43,7 +32,9 @@ flutter:
     - img/logo.png
     - img/logoBranca.png
     - img/back.jpg
+    - img/back_cadastro.jpg
     - img/back_principal.jpg
+    - img/back_cadastro.jpg
     - img/back_detalhes.jpg
     - img/teste.jpg
   #  - images/a_dot_ham.jpeg

@@ -18,6 +18,7 @@ class _PrincipalState extends State<Principal> {
           title:Image.asset("img/logoBranca.png",
               fit: BoxFit.fill, height: 25.0),
           centerTitle: true,
+          automaticallyImplyLeading: false,
           backgroundColor: Colors.red,
           actions: <Widget>[
             IconButton(

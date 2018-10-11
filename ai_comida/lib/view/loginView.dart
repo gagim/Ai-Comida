@@ -54,7 +54,7 @@ class _LoginState extends State<Login> {
                                 child: Theme(
                                     data: ThemeData(
                                       hintColor: Colors.white,
-                                      primaryColor: Colors.black,
+                                      primaryColor: Colors.deepOrangeAccent,
                                     ),
                                     child: textFields().buildTextFieldIfSenha(
                                         "Usuário",
@@ -65,7 +65,7 @@ class _LoginState extends State<Login> {
                             Theme(
                                 data: ThemeData(
                                   hintColor: Colors.white,
-                                  primaryColor: Colors.black,
+                                  primaryColor: Colors.deepOrangeAccent,
                                 ),
                                 child: Stack(
                                     alignment: Alignment(1.1, posicionamento),
@@ -88,14 +88,14 @@ class _LoginState extends State<Login> {
                                           },
                                           child: mostrarSenha
                                               ? new Icon(
-                                                  Icons.visibility,
+                                                  Icons.lock_open,
                                                   size: 30.0,
                                                   color: Colors.white,
                                                 )
                                               : new Icon(
-                                                  Icons.visibility_off,
+                                                  Icons.lock_outline,
                                                   size: 30.0,
-                                                  color: Colors.white70,
+                                                  color: Colors.white,
                                                 ))
                                     ])),
                           ],
@@ -146,15 +146,14 @@ class _LoginState extends State<Login> {
                               style: TextStyle(
                                   color: Colors.white, fontSize: 20.0),
                             ),
-                            color: Colors.redAccent,
+                            color: Colors.red,
                           ),
                         ),
                       ),
-                      RaisedButton(
-                        color: Colors.black.withOpacity(0.0),
+                      FlatButton(
                           child: Text(
                             "Cadastre-se",
-                            style: TextStyle(color: Colors.white,fontSize: 15.0),
+                            style: TextStyle(color: Colors.green,fontSize: 20.0),
                           ),
                           onPressed: () {
                             Navigator.pushNamed(context, "/cadastro");

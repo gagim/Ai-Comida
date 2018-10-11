@@ -19,9 +19,8 @@ class Dialogs {
       barrierDismissible: false,
       builder: (BuildContext context) {
         return AlertDialog(
-            title: Text('Alerta',
-                textAlign: TextAlign.center,
-                style: TextStyle(color: Colors.red, fontSize: 20.0)),
+            title: Image.asset("img/logoBranca.png",
+                fit: BoxFit.fill, height: 25.0),
             content: SingleChildScrollView(
               child: ListBody(
                 children: <Widget>[
@@ -193,16 +192,13 @@ class Dialogs {
       barrierDismissible: false,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Alerta',
-              textAlign: TextAlign.center,
-              style: TextStyle(color: Colors.red, fontSize: 20.0)),
           content: SingleChildScrollView(
             child: ListBody(
               children: <Widget>[
                 Text(
                   msg,
                   textAlign: TextAlign.center,
-                  style: TextStyle(color: Colors.blue, fontSize: 15.0),
+                  style: TextStyle(color: Colors.red, fontSize: 20.0),
                 ),
                 Padding(padding: EdgeInsets.only(top: 10.0)),
                 Row(
