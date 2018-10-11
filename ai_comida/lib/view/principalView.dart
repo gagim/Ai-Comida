@@ -69,8 +69,8 @@ class _PrincipalState extends State<Principal> {
                 child: Row(
                   children: <Widget>[
                     Container(
-                      width: 80.0,
-                      height: 80.0,
+                      width: 60.0,
+                      height: 60.0,
                       decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           image: DecorationImage(
@@ -102,27 +102,27 @@ class _PrincipalState extends State<Principal> {
                             Icon(
                               Icons.restaurant,
                               color: Colors.white,
-                              size: 35.0,
+                              size: 30.0,
                             ),
                             Icon(
                               Icons.directions_run,
                               color: Colors.white,
-                              size: 35.0,
+                              size: 30.0,
                             ),
                             Icon(
                               Icons.motorcycle,
                               color: Colors.white,
-                              size: 35.0,
+                              size: 30.0,
                             ),
                             Icon(
                               Icons.attach_money,
                               color: Colors.white,
-                              size: 35.0,
+                              size: 30.0,
                             ),
                             Icon(
                               Icons.credit_card,
                               color: Colors.white,
-                              size: 35.0,
+                              size: 30.0,
                             ),
                           ],
                         )
