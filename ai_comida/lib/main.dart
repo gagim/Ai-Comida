@@ -1,7 +1,8 @@
 import 'package:Ai_Comida/view/cadastroView.dart';
+import 'package:Ai_Comida/view/criarPedidoView.dart';
 import 'package:Ai_Comida/view/detalhesView.dart';
 import 'package:Ai_Comida/view/loginView.dart';
-import 'package:Ai_Comida/view/principalView.dart';
+import 'package:Ai_Comida/view/menuPrincipal.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -12,7 +13,8 @@ void main() async {
         routes: {
           "/login": (context) => Login(),
           "/cadastro": (context) => Cadastro(),
-          "/principal": (context) => Principal(),
+          "/principal": (context) => TelaPrincipal(),
+          "/criarPedido": (context) => CriarPedido(),
           "/detalhes": (context) => Detalhes(),
         },
         home: Login(),

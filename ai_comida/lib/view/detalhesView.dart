@@ -136,22 +136,22 @@ class _DetalhesState extends State<Detalhes> {
                     Text(
                       "Nome: Pizza Calabresa",
                       style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.bold),
+                          color: Colors.white, fontWeight: FontWeight.bold,fontSize: 11.0),
                     ),
                     Text(
                       "Tamanho: Grande",
                       style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.bold),
+                          color: Colors.white, fontWeight: FontWeight.bold,fontSize: 11.0),
                     ),
                     Text(
                       "Tempo médio de preparo: 30min",
                       style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.bold),
+                          color: Colors.white, fontWeight: FontWeight.bold,fontSize: 11.0),
                     ),
                     Text(
                       "Preço: 25,00",
                       style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.bold),
+                          color: Colors.white, fontWeight: FontWeight.bold,fontSize: 11.0),
                     ),
                   ],
                 )

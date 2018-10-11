@@ -1,13 +1,12 @@
-import 'package:Ai_Comida/helper/Dialogs.dart';
 import 'package:flutter/material.dart';
 
-class Principal extends StatefulWidget {
+
+class CriarPedido extends StatefulWidget {
   @override
-  _PrincipalState createState() => _PrincipalState();
+  _CriarPedidoState createState() => _CriarPedidoState();
 }
 
-class _PrincipalState extends State<Principal> {
-
+class _CriarPedidoState extends State<CriarPedido> {
   bool mostrar = true;
 
   @override
@@ -18,19 +17,7 @@ class _PrincipalState extends State<Principal> {
           title:Image.asset("img/logoBranca.png",
               fit: BoxFit.fill, height: 25.0),
           centerTitle: true,
-          automaticallyImplyLeading: false,
           backgroundColor: Colors.red,
-          actions: <Widget>[
-            IconButton(
-                icon: Icon(
-                  Icons.exit_to_app,
-                  color: Colors.white,
-                ),
-                onPressed: () {
-                  Dialogs().sair(context, "Deseja Sair?");
-                  //Navigator.pushReplacementNamed(context, "/login");
-                })
-          ],
         ),
         body: Stack(
           children: <Widget>[
