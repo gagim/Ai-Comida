@@ -52,8 +52,8 @@ class _CadastroState extends State<Cadastro> {
                             Container(
                               child: Column(
                                 children: <Widget>[
-                                  Text("Cadastre-se de um jeito rápido,fácil e é ",style: TextStyle(color: Colors.white,fontSize: 18.0),),
-                                  Text("grátis!",style: TextStyle(color: Colors.greenAccent,fontSize: 20.0),),
+                                  Text("Cadastre-se de um jeito rápido e fácil",style: TextStyle(color: Colors.white,fontSize: 16.0),),
+                                  Text("Grátis",style: TextStyle(color: Colors.greenAccent,fontSize: 18.0),),
                                   Padding(padding: EdgeInsets.only(top: 40.0,bottom: 20.0)),
                                   Padding(
                                       padding:
