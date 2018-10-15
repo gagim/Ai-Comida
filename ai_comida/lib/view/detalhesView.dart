@@ -54,9 +54,9 @@ class _DetalhesState extends State<Detalhes> {
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
-                              Text("Nome: Pizzaria Sabores do Sul",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold)),
-                              Text("Fone: (61) 3379-5790",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold)),
-                              Text("Ende: Qno 17 Conjunto 04 Loja 16",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold)),
+                              Text("Nome: Pizzaria Sabores do Sul",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 11.0)),
+                              Text("Fone: (61) 3379-5790",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 11.0)),
+                              Text("Ende: Qno 17 Conjunto 04 Loja 16",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 11.0)),
                             ],
                           )
                         ],
