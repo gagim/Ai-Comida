@@ -29,8 +29,8 @@ class _LoginState extends State<Login> {
           Image.asset(
             "img/back.jpg",
             fit: BoxFit.fill,
-            height: 1000.0,
-            width: 1000.0,
+            height: 800.0,
+            width: 500.0,
           ),
           SingleChildScrollView(
               padding: EdgeInsets.fromLTRB(10.0, 40.0, 10.0, 0.0),
