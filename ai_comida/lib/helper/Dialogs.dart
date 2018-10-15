@@ -198,7 +198,7 @@ class Dialogs {
                 Text(
                   msg,
                   textAlign: TextAlign.center,
-                  style: TextStyle(color: Colors.red, fontSize: 20.0),
+                  style: TextStyle(color: Colors.lightGreen, fontSize: 20.0),
                 ),
                 Padding(padding: EdgeInsets.only(top: 10.0)),
                 Row(
