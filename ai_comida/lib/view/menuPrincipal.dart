@@ -1,9 +1,9 @@
 //import 'dart:async';
 //import 'package:Ai_Comida/helper/Connections.dart';
 import 'package:Ai_Comida/helper/Dialogs.dart';
+import 'package:flutter/material.dart';
 //import 'package:Ai_Comida/helper/Exeptions.dart';
 //import 'package:Ai_Comida/helper/SalvarDadosUsuario.dart';
-import 'package:flutter/material.dart';
 
 class TelaPrincipal extends StatefulWidget {
   @override
@@ -47,7 +47,7 @@ class TelaPrincipalState extends State<TelaPrincipal> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.redAccent,
       appBar: AppBar(
         actions: <Widget>[
           IconButton(
@@ -60,8 +60,7 @@ class TelaPrincipalState extends State<TelaPrincipal> {
                 //Navigator.pushReplacementNamed(context, "/login");
               })
         ],
-        title:
-            Image.asset("img/logoBranca.png", fit: BoxFit.fill, height: 25.0),
+        title: Text("Bem vindo(a)"),
         centerTitle: true,
         backgroundColor: Colors.red,
         iconTheme: IconThemeData(color: Colors.black),
